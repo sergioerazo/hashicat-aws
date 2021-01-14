@@ -3,7 +3,7 @@ module "s3-bucket_example_complete" {
 
   bucket_prefix = "serazo"
   tags = [
-      "Department" = "IT"
+      "Department" = "IT",
       "Billable" = "Yes"
   ]
 }
