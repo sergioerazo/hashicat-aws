@@ -1,4 +1,4 @@
-module "s3-bucket_example_complete" {
+module "s3-bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
   bucket_prefix = "serazo"
